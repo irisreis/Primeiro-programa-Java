@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPgames- Cadastre-se</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <div id="topo">
+        <div id="TH1"></div>
+        <div id="TH2">
+            <a id="LOGO" href="index.html"><strong>XPgames</strong></a>
+            <a id="faleconosco" href="falec.html">Precisa de <br> ajuda? <br><strong>Fale conosco</strong></a>
+            <a id="login" href="login.html"><strong>Login</strong></a>
+            <a id="cadastro" href="cadastro.html"><strong>Cadastre-se</strong></a>
+        </div>
+        <div id="TH3"></div>
+        <div id="TH4">
+            <div class="qarea">
+                <a id="produtos" class="linkquiz" href="produtos.html"><strong>PRODUTOS</strong></a>
+            </div>
+            <div id="d1" class="decoracao1"></div>
+            <div class="qarea">
+                <a id="wallpapers" class="linkquiz" href="wallpaper.html"><strong>WALLPAPERS</strong></a>
+            </div>
+            <div id="d2" class="decoracao1"></div>
+            <div class="qarea">
+                <a id="top10" class="linkquiz" href="top10.html"><strong>TOP 10 MELHORES</strong></a>
+            </div>
+            <div id="d3" class="decoracao1"></div>
+            <div class="qarea">
+                <a id="qxbox" class="linkquiz" href="quizxbox.html"><strong>QUIZ XBOX</strong></a>
+            </div>
+            <div id="d4" class="decoracao1"></div>
+            <div class="qarea">
+                <a id="qps" class="linkquiz" href="quizps.html"><strong>QUIZ PLAYSTATION</strong></a>
+            </div>
+            <div id="d5" class="decoracao1"></div>
+            <div class="qarea">
+                <a id="qnintendo" class="linkquiz" href="quiznintendo.html"><strong>QUIZ NINTENDO</strong></a>
+            </div>
+        </div>
+    </div>
+    <div id="DH5">
+        <img id="img" src="../img/icons/mario1.webp" alt="">
+        <div id="area">
+            <div id="ina">
+                <p><strong>Nome:</strong></p> <input onblur="verificarN()" id="nome" type="text"><br><br>
+                <p><strong>Email:</strong></p> <input onblur="verificarE()" id="email" type="text"><br><br>
+                <p><strong>Telefone:</strong></p> <input onblur="verificarT()" id="tel" type="text"><br><br>
+                <p><strong>Cpf:</strong></p> <input  onblur="verificarC()" id="cpf" type="text"><br><br>
+                <p><strong>Cidade:</strong></p> <input onblur="verificarCid()" type="text"><br><br>
+                <p><strong>CEP:</strong></p> <input onblur="verificarCep()" id="cep" type="text"><br><br>
+                <p><strong>Sexo:</strong></p> 
+                <p>Feminino</p>
+                <input name="f" type="checkbox"><br><br>
+                <p>Masculino</p>
+                <input name="s" type="checkbox"><br><br>
+                <p><strong>Data de nascimento:</strong></p> <input id="data" type="date"><br><br>
+                <p><strong>Senha:</strong></p> <input onblur="verificarSenha()" id="senha" type="text"><br><br>
+                <p><strong>Digite a senha novamente:</strong></p> <input onblur="verificarSenha2()" id="senha2" type="text"><br><br>
+                <p id="info1"></p><br>
+                <input id="enviar" type="submit">
+            </div>
+        </div>
+    </div>
+    <div id="DH6">
+        <div id="d6"></div>
+        <div id="final1">
+            <p class="final"><strong>Atendimento</strong> <br> (21) 98546288 <br> Seg a Sex - das 9h às 17h</p>
+        </div>
+        <div id="d7"></div>
+        <div id="final2">
+            <p class="final"><strong>Facebook:</strong> XPgames<br> <strong>Instagram:</strong> xpgames <br>
+                <strong>Youtube:</strong> xpgames</p>
+        </div>
+        <div id="d8"></div>
+        <div id="final3">
+            <p class="final"><strong>Sobre <br></strong>Sobre
+                A XPgames, fundada em 2009, é <br>a soma de um amor incondicional pelos<br> games com o fascínio do
+                ecommerce.<br>
+                Atende todo o Brasil, via correios e<br> transportadoras, além de ser loja da<br> PlayStation, Xbox,
+                Nintendo e<br>
+                muitas outras!</p>
+        </div>
+        <div id="final4"></div>
+    </div>
+    <script src="../js/i.js"></script>
+</body>
+
+</html>

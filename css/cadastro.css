@@ -1,0 +1,236 @@
+#topo{
+    position: relative;
+}
+#TH1{
+    height: 20px;
+    background-color: rgb(37, 38, 44);
+}
+#TH2{
+    margin-top: -40px;
+    height: 110px;
+    background-color: rgb(37, 38, 44);
+}
+#LOGO{
+    text-decoration: none; /*retirar a linha debaixo do link*/
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "arial black";
+    font-size: 62px;
+    margin-left: 35px;
+}
+#faleconosco{
+    margin-top: 39px;
+    margin-left: 710px;
+    height: 35px;
+    width: 175px;
+    font-size: 12px;
+    text-decoration: none; /*retirar a linha debaixo do link*/
+    padding: 20px;
+    padding-right: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/icons/caixa.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 2px) center;
+    background-size: contain;
+    display: block;
+    box-shadow: 0px 0px 0px 1px rgb(59, 60, 66);
+    border-radius: 5px;
+}
+#login{
+    margin-top: -75px;
+    margin-left: 930px;
+    height: 35px;
+    width: 122px;
+    font-size: 16px;
+    text-decoration: none; /*retirar a linha debaixo do link*/
+    padding: 20px;
+    padding-right: 17px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/icons/cano.webp);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 2px) center;
+    background-size: contain;
+    display: block;
+    box-shadow: 0px 0px 0px 1px rgb(59, 60, 66);
+    border-radius: 5px;
+}
+#cadastro{
+    margin-top: -75px;
+    margin-left: 1113px;
+    height: 35px;
+    width: 162px;
+    font-size: 16px;
+    text-decoration: none; /*retirar a linha debaixo do link*/
+    padding: 20px;
+    padding-right: 17px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/icons/coin.webp);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 2px) center;
+    background-size: contain;
+    display: block;
+    box-shadow: 0px 0px 0px 1px rgb(59, 60, 66);
+    border-radius: 5px;
+}
+#TH3{
+    height: 3px;
+    background-color: rgb(255, 215, 96);
+}
+#TH4{
+    height: 57px;
+    background-color: rgb(37, 38, 44);
+    box-shadow: 5px 5px 18px black;
+}
+.decoracao1{
+    position: absolute;
+    margin-top: 20px;
+    height: 25px;
+    width: 1px;
+    background-color: rgb(52, 52, 57);
+}
+#d1{
+    margin-left: 188px;
+}
+#d2{
+    margin-left: 354px;
+}
+#d3{
+    margin-left: 561px;
+}
+#d4{
+    margin-left: 700px;
+}
+#d5{
+    margin-left: 904px;
+}
+.qarea{
+    float: left;
+}
+.linkquiz{
+    text-decoration: none; /*retirar a linha debaixo do link*/
+    margin-left: 14px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+#produtos{
+    margin-left: 50px;
+}
+#produtos:hover{
+    background-color: rgb(117, 0, 187);
+    color: white;
+    transition: 1s;
+}
+#wallpapers:hover{
+    background-color: rgb(226, 111, 10);
+    color: white;
+    transition: 1s;
+}
+#top10:hover{
+    background-color: rgb(226, 41, 134);
+    color: white;
+    transition: 1s;
+}
+#qxbox:hover{
+    background-color: rgb(41, 163, 38);
+    color: white;
+    transition: 1s;
+}
+#qps:hover{
+    background-color: rgb(0, 87, 169);
+    color: white;
+    transition: 1s;
+}
+#qnintendo:hover{
+    background-color: rgb(203, 27, 15);
+    color: white;
+    transition: 1s;
+}
+#DH5{
+    height: 2170px;
+    background-color: rgb(241, 241, 241);
+}
+#DH6{
+    height: 350px;
+    background-color: rgb(37, 38, 44);
+}
+.final{
+    color: white;
+    font-family: "Open Sans", "Montserrat",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+#final1{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 100px;
+}
+#final2{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 362px;
+}
+#final3{
+    position: absolute;
+    margin-left: 685px;
+    margin-top: 63px;
+}
+#d6{
+    height: 1px;
+    background-color: rgb(108, 109, 112);
+    width: 1142px;
+    margin-left: 95px;
+    margin-top: 5px;
+    position: absolute;
+}
+#d7{
+    height: 93px;
+    background-color: rgb(108, 109, 112);
+    width: 1px;
+    margin-left: 315px;
+    margin-top: 124px;
+    position: absolute;
+}
+#d8{
+    height: 203px;
+    background-color: rgb(108, 109, 112);
+    width: 1px;
+    margin-left: 594px;
+    margin-top: 81px;
+    position: absolute;
+}                                        /*NOVOOOOOOOO*/
+#area{
+    margin-top: 100px;
+    margin-left: 200px;
+    position: absolute;
+    height: 1980px;
+    width: 950px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px rgba(122, 122, 122, 0.6);
+}
+#img{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -460px;
+}
+textarea{
+    padding: 60px;
+}
+#ina{
+    margin-top: 45px;
+    margin-left: 140px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}                                        /*111*/
+input{
+    padding: 20px;
+    width: 300px;
+}
